@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3, 
   "name": "Blueskeet",
-  "version": "1.0.2",
-  "description": "Blueskeet updates the 'Post' button on Bluesky to use the correct, community-chosen term.",
+  "version": "1.0.3",
+  "description": "Blueskeet updates the 'Post' button on Bluesky to use the community's favorite alternative.",
   "icons": {
     "48": "icons/s-48.png",
     "96": "icons/s-96.png",
@@ -17,5 +17,11 @@
         "blueskeet.js"
       ]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b79bf4cd-2da7-450d-96ba-d25f0647fd4c}",
+      "strict_min_version": "109.0"
+    }
+  }
 }
